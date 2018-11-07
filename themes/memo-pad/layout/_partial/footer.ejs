@@ -1,0 +1,47 @@
+<footer id='bottom' role='contentinfo'>
+<div class='footer-content'><ul class="social-icons">
+    <% for (var i in theme.social_links) { %>
+        <% if (i == 'facebook') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-facebook" title="Facebook"><span aria='Facebook'></span></a></li>
+        <% } %>
+        <% if (i == 'instagram') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-instagram" title="Instagram"><span aria='Instagram'></span></a></li>
+        <% } %>
+        <% if (i == 'twitter') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-twitter" title="Twitter"><span aira='Twitter'></span></a></li>
+        <% } %>
+        <% if (i == 'pinterest') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-pinterest" title="Pinterest"><span aria='Pinterest'></span></a></li>
+        <% } %>
+        <% if (i == 'goodreads') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-goodreads" title="Goodreads"><span aria='Goodreads'></span></a></li>
+        <% } %>
+        <% if (i == 'behance') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-behance" title="Behance"><span aria='Behance'></span></a></li>
+        <% } %>
+        <% if (i == 'dribbble') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-dribbble" title="Dribbble"><span class='Dribble'></span></a></li>
+        <% } %>
+        <% if (i == 'freecodecamp') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-free-code-camp" title="freeCodeCamp"><span aria='Free Code Camp'></span></a></li>
+        <% } %>
+        <% if (i == 'bitbucket') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-bitbucket" title="Bitbucket"><span aria='Bitbucket'></span></a></li>
+        <% } %>
+        <% if (i == 'github') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-github" title="Github"><span aria='Git Hub'></span></a></li>
+        <% } %>
+        <% if (i == 'codepen') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-codepen" title="Codepen"><span aria='Code Pen'></span></a></li>
+        <% } %>
+        <% if (i == 'linkedin') { %>
+            <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-linkedin" title="LinkedIn"><span aria='Linked In'></span></a></li>
+        <% } %>
+    <% } %>
+</ul>
+<div class='footer-info'>
+    <span class='contact'><a href='mailto:<%- config.contact %>'><i class="far fa-envelope"></i> <%- config.contact %></a></span>
+    <span class='copyright'>Copyright <i class="far fa-copyright"></i> <%- date(Date.now(), 'YYYY') %> <%= config.author %></span>
+    <span class='site-info'>Powered by <a href='https://hexo.io' target='_blank'>Hexo.</a><% if (theme.host) { %> Hosted on <%- theme.host %>.<% } %></span>
+</div></div>
+</footer>

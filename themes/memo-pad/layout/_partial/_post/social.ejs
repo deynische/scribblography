@@ -1,0 +1,39 @@
+<ul class="social-icons">
+<% for (var i in theme.social_links) { %>
+    <% if (i == 'facebook') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-facebook" title="Facebook"></a></li>
+    <% } %>
+    <% if (i == 'instagram') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-instagram" title="Instagram"></a></li>
+    <% } %>
+    <% if (i == 'twitter') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-twitter" title="Twitter"></a></li>
+    <% } %>
+    <% if (i == 'pinterest') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-pinterest" title="Pinterest"></a></li>
+    <% } %>
+    <% if (i == 'goodreads') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-goodreads" title="Goodreads"></a></li>
+    <% } %>
+    <% if (i == 'behance') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-behance" title="Behance"></a></li>
+    <% } %>
+    <% if (i == 'dribbble') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-dribbble" title="Dribbble"></a></li>
+    <% } %>
+    <% if (i == 'freecodecamp') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-free-code-camp" title="freeCodeCamp"></a></li>
+    <% } %>
+    <% if (i == 'bitbucket') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-bitbucket" title="Bitbucket"></a></li>
+    <% } %>
+    <% if (i == 'github') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-github" title="Github"></a></li>
+    <% } %>
+    <% if (i == 'codepen') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-codepen" title="Codepen"></a></li>
+    <% } %>
+    <% if (i == 'linkedin') { %>
+        <li><a href="<%- url_for(theme.social_links[i]) %>" class="fab fa-linkedin" title="LinkedIn"></a></li>
+    <% } %>
+<% } %></ul>

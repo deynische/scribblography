@@ -1,0 +1,40 @@
+// ARTICLES
+article
+    display flex
+    flex-flow column
+    justify-content center
+    width auto
+    margin 0 20px
+    padding 60px 0
+    border-bottom medium double smoke
+    &.layout-page
+        padding-top 20px !important
+    &:first-of-type
+        padding-top 40px
+    &:last-of-type
+        border none
+    .post-head
+        display flex
+        flex-flow column-reverse
+        margin-bottom 10px
+        h1, h2
+            margin-bottom 0
+            a
+                color black
+                &:hover
+                    color black
+        .post-data
+            display flex
+            flex-flow row
+            justify-content space-between
+            color ash
+            margin-bottom 10px
+    .post-body
+        //color charcoal
+        h2, h3, h4, h5, h6
+            margin-top 30px
+    .post-footer
+        width 100%
+        margin 0
+        .post-tags
+            margin-top 20px

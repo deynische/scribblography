@@ -1,0 +1,131 @@
+// HYPERLINK STYLES
+a
+    color teal
+    text-decoration none
+    &:hover
+    &:focus
+    &:active
+        color gold
+        text-decoration underline
+    &:visited
+        color berry
+        &:hover
+            color gold
+// MEDIA
+p>img, .video-container
+    position relative
+    left 50%
+    transform(translateX(-50%))
+img
+    display block
+    max-width 100%
+    max-height 98vh
+.video-container
+    position relative
+    padding-bottom 56.25% // 16:9
+    height 0
+    overflow hidden
+    margin 0 auto
+    margin-bottom 15px
+    iframe
+        position absolute
+        top 0
+        left 0
+        width 100%
+        height 100%
+// QUOTES
+blockquote
+    margin 20px auto
+    padding 0 10px
+    color bronze
+    background-color paper
+    border-top thick dotted bronze
+    border-bottom thick dotted bronze
+    overflow auto
+    &>*
+        margin 30px
+    footer > strong::after
+        content '\0020\2014\0020'
+.pullquote
+    font-size (1em * scale)
+    text-align center
+    background-color white
+    width 50%
+    margin 10px 0 10px
+    &.right
+        margin-left 20px
+        float right
+        border none
+        border-left thick solid gold
+        &>*
+            margin 20px 0px 20px 20px
+    &.left
+        margin-right 20px
+        float left
+        border none
+        border-right thick solid gold
+        &>*
+            margin 20px 20px 20px 0px
+// INLINE
+del
+    color silver
+
+// TABLE
+.post-body>table
+    text-align center
+    width 100%
+    overflow scroll
+    border-collapse collapse
+    border thin solid brass
+    thead
+        color black
+        background-color brass
+    tbody
+        tr
+            background-color paper
+    th, td
+        padding (1em / scale)
+    td
+        border thin solid smoke
+
+// CODE
+p>code
+    padding 2px 4px
+    color bronze
+    background-color paper
+    border-radius(2px)
+figure.highlight
+    margin 0
+    color smoke
+    background-color charcoal
+    overflow auto
+    figcaption
+        padding 0.25em 1em
+        border-bottom medium solid charcoal
+        a
+            display block
+            float right
+            color gold
+            &:active
+            &:hover
+            &:focus
+                color brass
+            &:visited
+                color gold
+                &:active
+                &:hover
+                &:focus
+                    color brass
+    table
+        border-collapse collapse
+    td
+        padding 0.5em
+    .gutter, figcaption
+        background-color graphite
+    .code
+        .line
+            padding-left 1em
+            &.marked
+                color cyan
+    pre
+        margin 0

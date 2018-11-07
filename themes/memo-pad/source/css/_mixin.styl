@@ -1,0 +1,43 @@
+// MIXINS
+background-size()
+    -webkit-background-size arguments
+    -moz-background-size arguments
+    -o-background-size arguments
+    background-size arguments
+
+border-radius()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    border-radius arguments
+
+box-shadow()
+    -moz-box-shadow arguments
+    -webkit-box-shadow arguments
+    box-shadow arguments
+
+transform()
+    -moz-transform arguments
+    -ms-transform arguments
+    -o-transform arguments
+    -webkit-transform arguments
+    transform arguments
+
+transition()
+    -moz-transition arguments
+    -ms-transition arguments
+    -o-transition arguments
+    -webkit-transition arguments
+    transition arguments
+
+// FUNCTIONS
+placeholder(class, hex)
+    {class}:-moz-placeholder
+        color hex
+        opacity 1
+    {class}::-moz-placeholder
+        color hex
+        opacity 1
+    {class}:-webkit-input-placeholder
+        color hex
+    {class}:-ms-input-placeholder
+        color hex

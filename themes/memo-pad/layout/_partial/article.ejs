@@ -1,0 +1,35 @@
+<article>
+    <header class='post-head'>
+        <% if (page.layout == 'post') { %>
+            <% if (post.link){ %><a href='<%= post.link %>' target='_blank'><h1><%- partial('_post/title') %></h1></a><% } else { %><h1><%- partial('_post/title') %></h1><% } %>
+            <div class='post-data'><%- partial('_post/data') %></div>
+        <% } else { %>
+            <h2><a href='<%- url_for(post.path) %>'><%- partial('_post/title') %></a></h2>
+            <div class='post-data'><%- partial('_post/data') %></div>
+        <% } %>
+    </header>
+    <section class='post-body'>
+        <% if (post.excerpt) { %>
+            <% if (page.layout == 'post') { %><%- post.content %><% } else { %><%- post.excerpt %><% } %>
+        <% } else { %>
+            <% if (is_archive() || is_category() || is_tag()) { %>
+                <p><%- truncate(strip_html(post.content), {length: 160, separator: ' ', omission: '...'}) %></p>
+            <% } else { %>
+                <%- post.content %>
+                <% if (post.photos.length != 0) { %>
+                    <% for (var i=0;i<post.photos.length;i++) { %>
+                    <p><img src='<%- post.photos[i] %>' /></p>
+                    <% } %>
+                <% } %>
+            <% } %>
+        <% } %>
+    </section>
+    <footer class='post-footer'>
+        <% if (post.excerpt || is_archive() || is_category() || is_tag()) { %>
+            <% if (page.layout !== 'post') { %>
+                <a class='button-read' href='<%- url_for(post.path) %>'>Read More</a>
+            <% } %>
+        <% } %>
+        <%- partial('_post/tags') %>
+    </footer>
+</article>

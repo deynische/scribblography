@@ -1,0 +1,69 @@
+.archive-wrapper
+    width 100%
+    .archive-posts
+        article
+            padding 40px 0
+            &:last-of-type
+                border-bottom medium double ash
+            .post-head
+                margin 0
+                h2
+                    font-size (1em * (scale ** 1))
+                    margin 0
+            .post-body
+                p
+                    margin 20px 0
+    .archive-metadata
+        display flex
+        flex-flow column
+        flex-grow 1
+        text-align left
+        margin 0 20px 40px
+        padding 20px 0
+        border-top medium double ash
+        .archive-filter
+            margin 0
+
+// PAGINATION
+.pagination
+    display flex
+    flex-flow row
+    justify-content space-between
+    align-items center
+    margin 20px
+    .page-indicator
+        color graphite
+    // BUTTONS
+    .prev, .next
+        text-transform uppercase
+        &.active
+            &:hover
+            &:focus
+            &:active
+                text-decoration none
+        &.inactive
+            color smoke
+    .prev::before
+        font-family 'Font Awesome 5 Free'
+        content '\f053\0020'
+    .next::after
+        font-family 'Font Awesome 5 Free'
+        content '\0020\f054'
+
+// FILTERS
+.tag-list, .category-list, .archive-list
+    display flex
+    flex-flow row wrap
+    list-style-type none
+    padding 0
+    margin 0
+    li
+        margin 4px
+/*.tag-list-link::before
+    font-family 'Font Awesome 5 Free'
+    content '\f0c6\200A'*/
+article
+    .tag-list
+        justify-content flex-start
+        li:first-of-type
+            margin-left 0

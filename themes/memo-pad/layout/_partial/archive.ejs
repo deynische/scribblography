@@ -1,0 +1,21 @@
+<div class='archive-wrapper'>
+    <div class='archive-posts'><%- partial('_partial/posts', {pagination: config.per_page}) %><%- partial('pagination') %></div>
+    <aside class='archive-metadata'>
+    <% if (site.categories.length !== 0) { %>
+        <section class='archive-filter'>
+        <h3>Categories</h3>
+        <%- list_categories({orderby: 'name', show_count: false, style: 'list', depth: -1}) %>
+        </section>
+    <% } %>
+    <% if (site.tags.length !== 0) { %>
+        <section class='archive-filter'>
+        <h3>Tags</h3>
+        <%- list_tags({orderby: 'name', show_count: false}) %>
+        </section>
+    <% } %>
+        <section class='archive-filter'>
+        <h3>Year</h3>
+        <%- list_archives({type: 'yearly', show_count: false}) %>
+        </section>
+    </aside>
+</div>

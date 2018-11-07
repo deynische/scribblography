@@ -1,0 +1,6 @@
+<span aria-label='Pagination menu:'></span>
+<div class='pagination'>
+    <% if (page.prev == 0) { %><span class='prev inactive'>Prev</span><% } else { %><a class='prev active' href='/<%= page.prev_link %>' aria-label='Previous'>Prev</a><% } %>
+    <span class='page-indicator'><%- page.current + ' / ' + page.total %></span>
+    <% if (page.next == 0) { %><span class='next inactive'>Next</span><% } else { %><a class='next active' href='/<%= page.next_link %>' aria-label='Next'>Next</a><% } %>
+</div>

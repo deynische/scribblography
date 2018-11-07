@@ -1,0 +1,30 @@
+# Navigation
+menu:
+    Home: /
+    Archive: /archive
+    About: /about
+
+# Banner Logo Path
+logo: /assets/logo.svg
+
+# Social Media
+## Reorganize as desired. If no link, comment out.
+social_links:
+    #freecodecamp:  
+    #bitbucket:     
+    github:         https://github.com/deynische
+    #codepen:       
+    #facebook:      
+    instagram:      https://www.instagram.com/deynische/
+    #twitter:       
+    #pinterest:     
+    #goodreads:     
+    #behance:       
+    #dribbble:      
+    #linkedin:       https://www.linkedin.com/in/deynische
+
+# Choose a highlight.js theme otherwise will default
+highlight: monokai-sublime
+
+# Webhost footer label if desired
+host: Github Pages

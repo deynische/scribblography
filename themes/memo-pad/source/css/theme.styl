@@ -1,0 +1,203 @@
+@import '_variables'
+@import '_mixin'
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Bitter|Amiri|Rambla');
+
+html
+    height 100%
+body
+    position relative
+    min-height 100vh
+    width 100%
+    margin 0
+    overflow-x hidden
+    font-size 1.125rem // BASE FONT SIZE
+    color graphite
+    //-webkit-font-smoothing antialiased
+    //-moz-osx-font-smoothing grayscale
+    main
+        padding-bottom 100px
+
+// FONT SIZE
+h1
+    font-size (1em * (scale ** 3))
+h2, #title
+    font-size (1em * (scale ** 2))
+h3, .social-icons
+    font-size (1em * (scale ** 1))
+h4, .contact
+    font-size 1em
+h5, #subtitle, nav, .keyboard, .post-data, .button-read, .pagination, .tag-list, .category-list, .archive-list, .post-followup span:first-child
+    font-size (1em / (scale ** 1))
+h6, .copyright, .site-info, .post-body>table
+    font-size (1em / (scale ** 2))
+    
+// FONT FACE
+#title
+    font-family 'Amatic SC', cursive
+    letter-spacing -1px
+h1, h2, h3, h4, h5, h6
+    font-family 'Bitter', serif
+    color charcoal
+    margin 20px 0
+p
+    margin 30px 0
+p, .post-body
+    font-family 'Amiri', serif
+    line-height 150%
+#subtitle, #bottom, nav, .keyboard, .post-data, .button-read, .pagination, .archive-filter, .tag-list, .category-list, .archive-list, .post-body>table, .post-followup span:first-child
+    font-family 'Rambla', sans-serif
+    
+// FONT STYLES
+nav, .keyboard, .button-read, .pagination, .archive-filter, .post-tags
+    font-weight bold
+    
+// HEADER
+#top
+    display flex
+    flex-flow column
+    justify-content center
+    text-align center
+    .logo
+        margin 20px auto 0
+        color black
+        &:focus
+        &:hover
+        &:active
+            text-decoration none
+        img
+            width 20vw
+            max-width 150px
+            margin 0 auto
+    #subtitle
+        margin-bottom 1em
+        color charcoal
+
+// FOOTER
+#bottom
+    position absolute
+    bottom 0
+    left 0
+    right 0
+    width 100vw
+    height 100px
+    background-color charcoal
+    color smoke
+    span
+        display block
+    a
+        color gold
+        &:focus
+        &:hover
+        &:active
+            color brass
+            text-decoration none
+        &:visited
+            color gold
+            &:focus
+            &:hover
+            &:active
+                color brass
+    .button-jump
+        position relative
+        top 0
+    .footer-content
+        display flex
+        flex-flow row-reverse
+        justify-content space-between
+        padding 20px
+        .social-icons
+            display flex
+            flex-flow row wrap
+            justify-content flex-end
+            text-align center
+            max-width 50%
+            margin -8px 0 0
+            padding-left 10px
+            li
+                display block
+                list-style none
+                width 1.25em
+                height 1.25em
+        .footer-info
+            flex-shrink 0
+            .copyright
+                margin-top 1em
+            .site-info
+                margin-top 2px
+        
+// NAVIGATION
+nav
+    width 100%
+    background-color black
+    ul
+        display flex
+        flex-flow row
+        justify-content center
+        padding 0
+        margin 0
+        li
+            display block
+            padding 1em 0
+            list-style none
+            a
+                padding 1em
+                text-decoration none
+                color brass
+                background-color black
+                &:focus
+                &:hover
+                &:active
+                    color black
+                    text-decoration none
+                    background-color brass
+                &:visited
+                    color brass
+                    &:focus
+                    &:hover
+                    &:active
+                        color black
+
+// BUTTON STYLES
+.button-jump
+    display block
+    padding 1em 0
+    text-align center
+    color brass
+    background-color black
+    &:focus
+    &:hover
+    &:active
+        text-decoration none
+        color black
+        background-color brass
+    &:visited
+        color brass
+        &:hover
+        &:focus
+        &:active
+            color black
+.button-read
+    text-align center
+    display block
+    margin 0 auto
+    padding 0.75em
+    color charcoal
+    background-color brass
+    &:hover
+    &:focus
+    &:active
+        text-decoration none
+        color brass
+        background-color graphite
+    &:visited
+        color charcoal
+        &:hover
+        &:focus
+        &:active
+            color brass
+
+@import '_partial/post'
+@import '_partial/elements'
+@import '_partial/archive'
+@import '_partial/responsive'
+@import '_partial/accessibility'
