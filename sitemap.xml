@@ -3,22 +3,22 @@
 
 
     <sitemap>
-        <loc>scribblography.com/post-sitemap.xml</loc>
+        <loc>https://scribblography.com/post-sitemap.xml</loc>
         <lastmod>2018-11-07T23:38:52.503Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>scribblography.com/page-sitemap.xml</loc>
+        <loc>https://scribblography.com/page-sitemap.xml</loc>
         <lastmod>2018-11-07T23:25:17.754Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>scribblography.com/category-sitemap.xml</loc>
+        <loc>https://scribblography.com/category-sitemap.xml</loc>
         <lastmod>2018-11-07T23:38:52.503Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>scribblography.com/tag-sitemap.xml</loc>
+        <loc>https://scribblography.com/tag-sitemap.xml</loc>
         <lastmod>2018-11-07T23:38:52.503Z</lastmod>
     </sitemap>
 
