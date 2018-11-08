@@ -14,10 +14,15 @@ timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://scribblography.com
+url: https://scribblography.com
 root: /
 permalink: :title/
 permalink_defaults:
+
+# SITEMAP
+# Plugin: hexo-generator-seo-friendly-sitemap
+sitemap:
+    path: sitemap.xml
 
 # Directory
 source_dir: source
@@ -76,7 +81,16 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: memo-pad
 
+# MISC
+# Just keeping my Google Analytics DRY
+ga_tracking:
+  enable: true
+  id: UA-85064339-2
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:deynische/scribblography.git
+  branch: gh-pages
+  message: 
