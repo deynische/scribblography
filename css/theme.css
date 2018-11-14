@@ -39,13 +39,12 @@ nav,
 .tag-list,
 .category-list,
 .archive-list,
-.post-followup span:first-child {
+.post-body>table th {
   font-size: 0.75187969924812em;
 }
 h6,
 .copyright,
-.site-info,
-.post-body>table {
+.site-info {
   font-size: 0.565323082141444em;
 }
 #title {
@@ -58,6 +57,7 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 150%;
   font-family: 'Bitter', serif;
   color: #1f1b19;
   margin: 20px 0;
@@ -67,8 +67,8 @@ p {
 }
 p,
 .post-body {
-  font-family: 'Amiri', serif;
   line-height: 150%;
+  font-family: 'Amiri', serif;
 }
 #subtitle,
 #bottom,
@@ -81,8 +81,7 @@ nav,
 .tag-list,
 .category-list,
 .archive-list,
-.post-body>table,
-.post-followup span:first-child {
+.post-body>table th {
   font-family: 'Rambla', sans-serif;
 }
 nav,
@@ -416,8 +415,11 @@ del {
   border: thin solid #d1b966;
 }
 .post-body>table thead {
-  color: #000;
-  background-color: #d1b966;
+  color: #d1b966;
+  background-color: #4c4947;
+}
+.post-body>table thead th {
+  border: thin solid #8e7410;
 }
 .post-body>table tbody tr {
   background-color: #fafaf7;
@@ -427,12 +429,12 @@ del {
   padding: 0.75187969924812em;
 }
 .post-body>table td {
-  border: thin solid #e2dfdd;
+  border: thin solid #c4bebc;
 }
 p>code {
   padding: 2px 4px;
-  color: #8e7410;
-  background-color: #fafaf7;
+  color: #1f1b19;
+  background-color: #e2dfdd;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;

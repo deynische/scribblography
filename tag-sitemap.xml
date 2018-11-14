@@ -4,28 +4,98 @@
 
     <url>
         <loc>https://scribblography.com/tags/writing/</loc>
-        <lastmod>2018-11-07T23:38:52.503Z</lastmod>
+        <lastmod>2018-11-09T03:12:30.858Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://scribblography.com/tags/storytelling/</loc>
-        <lastmod>2018-11-07T23:38:52.503Z</lastmod>
+        <lastmod>2018-11-09T03:12:30.858Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://scribblography.com/tags/books/</loc>
-        <lastmod>2018-11-07T23:38:52.503Z</lastmod>
+        <lastmod>2018-11-09T03:12:30.858Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://scribblography.com/tags/life/</loc>
-        <lastmod>2018-11-07T23:38:52.503Z</lastmod>
+        <lastmod>2018-11-09T03:12:30.858Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/github/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/github-pages/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/dns/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/cname/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/domains/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/ssl/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/cloudflare/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/cmd/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/terminal/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/command-line/</loc>
+        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
