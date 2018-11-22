@@ -59,6 +59,7 @@ h5,
 h6 {
   line-height: 150%;
   font-family: 'Bitter', serif;
+  letter-spacing: 1px;
   color: #1f1b19;
   margin: 20px 0;
 }
