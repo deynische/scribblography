@@ -185,6 +185,13 @@
     </url>
 
     <url>
+        <loc>https://scribblography.com/tags/writing/</loc>
+        <lastmod>2018-11-29T07:46:30.930Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://scribblography.com/tags/voice/</loc>
         <lastmod>2018-11-29T07:46:30.930Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -213,8 +220,64 @@
     </url>
 
     <url>
-        <loc>https://scribblography.com/tags/writing/</loc>
-        <lastmod>2018-11-29T07:46:30.930Z</lastmod>
+        <loc>https://scribblography.com/tags/personal-brand/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/professionalism/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/career/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/reputation/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/alias/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/username/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/pseudonym/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/identity/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://scribblography.com/tags/bias/</loc>
+        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
