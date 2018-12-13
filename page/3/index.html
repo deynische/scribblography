@@ -47,84 +47,20 @@
 <article>
     <header class="post-head">
         
-            <h2><a href="/a-history-of-HTML/">A History of HTML</a></h2>
-            <div class="post-data"><div><span aria-label="Published "></span><time datetime="2018-11-22T02:41:46.000Z" itemprop="datePublished">21 Nov 2018</time> &#65372; 12 min read</div><div class="post-cat"><span aria-label="Category "></span><a class="category-link" href="/categories/web/">web</a> &#47; <a class="category-link" href="/categories/web/html/">html</a></div></div>
+            <h2><a href="/minimizing-filler-words/">Minimizing Filler Words</a></h2>
+            <div class="post-data"><div><span aria-label="Published "></span><time datetime="2018-11-29T07:46:30.000Z" itemprop="datePublished">28 Nov 2018</time> &#65372; 2 min read</div><div class="post-cat"><span aria-label="Category "></span><a class="category-link" href="/categories/writing/">writing</a></div></div>
         
     </header>
     <section class="post-body">
         
             
-                <p>It’s weird to think about how fast technology moves. Either you get to see its evolution up close or it just sneaks by right under your nose. Today we talk about self-driving cars, alternate reality lenses, cloud services, smart devices, artificial intelligence, and machine learning. It almost seems like yesteryear that these were all just the dreams of sci-fi enthusiasts.</p>
-<p>This Thanksgiving holiday, I thought I’d take a moment to reflect on the history of the very first thing you learn in web development: HTML.</p>
-<p>The story begins with hypertext.</p>
-<h2 id="What-Is-Hypertext"><a href="#What-Is-Hypertext" class="headerlink" title="What Is Hypertext?"></a>What Is Hypertext?</h2><p>We usually interact with text in a linear way. Think of a story. There’s a beginning, middle, and end, and we love observing the journey chronologically. <strong>Hypertext is experiencing text in a non-linear fashion.</strong> Imagine being a detective and you have to organize a story from a bunch of disparate parts. You decide which is the beginning, what happened in the middle, and how it all ends. Some bits lead to dead ends. Other bits are related to many other parts.</p>
-<p>It’s exactly like experiencing the game, <a href="http://www.herstorygame.com/" target="_blank" rel="noopener">Her Story</a>.</p>
-<p>For something to technically be considered a hypertext document, it must contain hyperlinks, which are navigable references to other documents. This was a particular boon for researchers as it described instant access to relevant notes, cutting the time on information search and preventing redundancy.</p>
-<p>Although this idea had been floating around since 1940s, the terms “hypertext” and “hyperlink” didn’t appear until the 1960s when they were coined by <a href="https://en.wikipedia.org/wiki/Ted_Nelson" target="_blank" rel="noopener">Ted Nelson</a>.</p>
-<h2 id="The-Context-of-Markup-Language"><a href="#The-Context-of-Markup-Language" class="headerlink" title="The Context of Markup Language"></a>The Context of Markup Language</h2><p>These hypertext documents would contain bits of code specifying how they would be formatted. Of course, not all documents are equal in information. During the late 1960s, the Graphic Communications Association saw a trending <strong>desire for the separation of content and presentation as well as a more editorial type structure</strong>. In response, they began to develop a generic code concept that supported contextual formatting.</p>
-<p>In the early 1970s, Charles Goldfarb of IBM along with Edward Mosher and Raymond Lorie continued to build upon the ideas laid by the GCA. They developed a contextual tag-set notation and a system specify the document type. They called it GML for Generalized Markup Language. It is not a coincidence the acronym is comprised of their initials.</p>
-<p>Backed by IBM and gaining popularity, GML was a success. However, Goldfarb didn’t stop there. He continued to research and refine the language. By the 1980s, GML had evolved to become Standard Generalized Markup Language or SGML.</p>
-<p>SGML looks something like this:</p>
-<pre><code>&lt;!DOCTYPE note SYSTEM &quot;stickynote.dtd&quot;&gt;
-&lt;!-- The above specifies the document type 
-     and the document type definition (DTD).
-     DTDs determine the rulesets for writing 
-     and parsing the following: --&gt;
-&lt;stickynote&gt;
-    &lt;para&gt;
-        Grocery List
-        &lt;list&gt;
-            &lt;item&gt;Milk&lt;/item&gt;
-            &lt;item&gt;Bread&lt;/item&gt;
-            &lt;item&gt;Soap&lt;/item&gt;
-        &lt;/list&gt;
-    &lt;/para&gt;
-&lt;/stickynote&gt;
-</code></pre><p>Look familiar? That’s because a certain someone took inspiration from SGML.</p>
-<h2 id="The-World-Wide-Web-Project"><a href="#The-World-Wide-Web-Project" class="headerlink" title="The World Wide Web Project"></a>The World Wide Web Project</h2><p>You can’t really dive into the history of HTML without mentioning the man who came up with today’s hypertext ecosystem: Tim Berners-Lee.</p>
-<p>This ecosystem is called the World Wide Web. And it exists as a way to view and interact with hypertext documents across the internet. These days, we usually interact with the internet through the World Wide Web and therefore largely regard them as one and the same. But consider the 1980s, during the tail end of the ARPANET era. Interactions on the internet were mostly email, file sharing, and bulletin board systems.</p>
-<p><em>Websites did not exist.</em></p>
-<p>Can you imagine what it would be like to research anything without the web? I suppose you could go back to the good ol’ library system. But imagine if the library was disorganized. And imagine if half of the books you needed were written in a foreign language. Now imagine that this is CERN, the renowned particle research facility. <a href="https://www.w3.org/People/Berners-Lee/Kids.html#What" target="_blank" rel="noopener">Tim writes:</a></p>
-<blockquote>
-<p>I found it frustrating that in those days, there was different information on different computers, but you had to log on to different computers to get at it. Also, sometimes you had to learn a different program on each computer. So finding out how things worked was really difficult. Often it was just easier to go and ask people when they were having coffee.</p>
-</blockquote>
-<p>To solve CERN’s information access problem, Tim Berners-Lee thought a hypertext system could be more efficient. It would essentially be <strong>an immense database of hypertext documents accessible from any computer</strong>. He built a prototype called <a href="https://en.wikipedia.org/wiki/ENQUIRE" target="_blank" rel="noopener">ENQUIRE</a> which was much like an offline wiki. While novel, he found the maintenance cumbersome and the scope of information access unsatisfying.</p>
-<p>While Tim continued to refine his idea, the network presence of CERN steadily grew until it became the largest internet node in the late 1980s. Watching network technologies evolve inspired Tim to marry the hypertext database with the internet. He would call this the <em>World Wide Web</em>.</p>
-<p>This project involved several parts:</p>
-<ul>
-<li>A way to view and browse hypertext documents</li>
-<li>How to format hypertext documents for this “browser”</li>
-<li>A way to store and serve hypertext documents</li>
-<li>A way to connect this system to the internet</li>
-</ul>
-<p>Tim formally proposed his information management system to CERN in 1989. In the year following, he built the first browser, defined the HyperText Markup Language, set up the first webserver, developed the HyperText Transfer Protocol, and launched  <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noopener">the first-ever web page</a>.</p>
-<p>It’s no wonder why some regard Tim Berners-Lee as the father of the internet.</p>
-<h2 id="Problems-With-HTML"><a href="#Problems-With-HTML" class="headerlink" title="Problems With HTML"></a>Problems With HTML</h2><p>The World Wide Web wasn’t free to the public until April of 1993. And interest in it <em>exploded</em>. Anything you can think that’s on the web today, people were already working on it in the early 1990s. The first livestreams were of a <a href="https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot" target="_blank" rel="noopener">coffee pot</a> and a <a href="http://www.fishcam.com/" target="_blank" rel="noopener">fish tank</a>. Wired and Bloomberg launch their digital newsletter sites. IMDB moves from <a href="https://en.wikipedia.org/wiki/Usenet" target="_blank" rel="noopener">Usenet</a> to the web. There were even a couple <a href="https://en.wikipedia.org/wiki/Doctor_Fun" target="_blank" rel="noopener">web</a><a href="https://en.wikipedia.org/wiki/NetBoy" target="_blank" rel="noopener">comics</a>.</p>
-<p>This explosion could be credited to the Mosaic browser. It was the first browser to display images inline with text, something we love to this day. But most important was the developers’ quick customer support turnaround. They sought to make their browser easy to set up and use and thus became the best entry point to the web for a beginner.</p>
-<p>The developers behind Mosaic went on to form their own company and gave us Netscape Navigator in 1994. And with it the browser wars began with Microsoft’s Internet Explorer.</p>
-<p><strong>The browser wars highlighted HTML’s lack of standardization.</strong> There was no such thing as “best practices” in those days. An HTML document may have rendered beautifully in Netscape and have looked atrocious in Internet Explorer. And it all came down to the fact that Tim Berners-Lee intended HTML to be an application of SGML and hence neglected to give HTML a document type definition.</p>
-<p>To recap, a document type definition is a set of rules that specify how to parse and render document tags. It’s how the computer understands <code>&lt;p&gt;</code> signals the beginning of a paragraph and <code>&lt;/p&gt;</code> signals the end. DTDs are one of the cornerstones of SGML.</p>
-<p>As more users adopted the web, new document needs arose. Data needed to be organized into tables. Forms were needed for information collection. New tags were needed for these elements. How should we nest these tags? Are closing tags necessary? Should tag order matter?</p>
-<p>The lack of rules made HTML rather messy.</p>
-<p>In October of 1994, Tim founded the World Wide Web Consortium or the W3C for short. Their first mission was to decide and draft the official specification for HTML. This would instruct how browsers ought to render the tags and create a “best practices” style of HTML writing.</p>
-<p>Two years later, the W3C released an official specification for HTML.</p>
-<h2 id="The-HTML-Spec-Roadmap"><a href="#The-HTML-Spec-Roadmap" class="headerlink" title="The HTML Spec Roadmap"></a>The HTML Spec Roadmap</h2><p>Today, if you’re learning HTML, you’ll notice that it’s the HTML5 specification. You are right to infer that we are currently in the fifth edition of HTML and the that very first web page Tim Berners-Lee wrote would be the first edition.</p>
-<p>So what happened with all the editions in between?</p>
-<p>During the call for standardization, an organization called the Internet Engineering Task Force proposed a set of standards for the new HTML tags regarding tables and forms in 1995. This would be considered HTML 2.0.</p>
-<p>When the W3C came out with their official spec in 1996, it was considered the third edition of HTML. This spec refined the previous 2.0 proposal and set the standard for visual markup tags and attributes. Websites are still a bit messy but at least there’s an acceptable way to write your markup.</p>
-<p>By around 1998, the W3C released a new spec for HTML4. This edition sought to make documents richer with accessibility for the impaired. This involved the creation and the depreciation of HTML tags. The goal was to get everyone on board with the new spec adopt the practice of keeping content and style separate while phasing out the older less practical elements of HTML.</p>
-<p>Work on HTML5 didn’t begin until 2008. By this time, it was well understood that websites were no longer simple documents and instead had evolved into robust interactive applications. The new HTML5 spec was to address and simplify this new trend and shed any attempt to be an application of SGML. It would introduce new semantic tags and ways to natively handle complex media.</p>
-<p>The HTML5 spec was formally released in 2014 and continues to evolve.</p>
-<h2 id="Final-Thoughts"><a href="#Final-Thoughts" class="headerlink" title="Final Thoughts"></a>Final Thoughts</h2><p>I might have misread, but my understanding of HTML5 is that it’s supposed to be a “living standard” meaning it might be the last major spec for HTML. Of course, the W3C continues to research and review the ever-changing needs of the web. As of right now, HTML 5.2 is the latest version.</p>
-<p>This article is many more words than I intended to write. Who knew there’s so much context in the thirty or so years since HTML has existed? I hope this was as humbling and enlightening for you as it was for me.</p>
-<h3 id="Links-for-the-Extra-Curious"><a href="#Links-for-the-Extra-Curious" class="headerlink" title="Links for the Extra Curious"></a>Links for the Extra Curious</h3><ul>
-<li><a href="http://www.sgmlsource.com/history/sgmlhist.htm" target="_blank" rel="noopener">A Brief History of the Development of SGML</a></li>
-<li><a href="https://www.xmlgrrl.com/publications/DSDTD/index.html" target="_blank" rel="noopener">Developing SGML DTDs: From Text to Model to Markup</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLzH6n4zXuckqTQBIEuBTyjsO-Ef7562_Z" target="_blank" rel="noopener">Computerphile: SGML, HTML, XML</a></li>
-<li><a href="https://www.w3.org/People/Berners-Lee/Kids.html" target="_blank" rel="noopener">Tim Berners-Lee: Answers for Young People</a></li>
-<li><a href="https://www.w3.org/People/Berners-Lee/FAQ.html" target="_blank" rel="noopener">Tim Berners-Lee: Frequently Asked Questions</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_websites_founded_before_1995" target="_blank" rel="noopener">Wikipedia: List of websites founded before 1995</a></li>
-</ul>
+                <p>I have a tendency to use a lot of filler words. They are so heavily embedded in my speech patterns that they weave themselves effortlessly into my writing. I’ve been actively trying to edit them out for a little over a year.</p>
+<p>Maybe I just like filler words too much. I find comfort in being noncommittal especially as I continue to discover the limits to my knowledge. I never want to promise something only to find out I’m horribly wrong. However, the other side of all this is an image that I’m insecure and doubtful. In my effort to be too honest, I’m inadvertently telling you not to have any faith in me.</p>
+<p>This is the problem with filler words.</p>
+<p>Filler words pad and minimize content. The words <code>just</code> and <code>only</code> conjures up the idea of toeing a threshold. Approximations like <code>almost</code> and <code>probably</code> reveal doubt. Some words can be <code>very</code> redundant and <code>really</code> don’t add much to a sentence.</p>
+<p>These words have a time and place. In fact, they’re quite useful if you’re trying to assure an issue isn’t <em>really</em> that complicated. The solution you have will <em>probably</em> work. It’s <em>just</em> going to take <em>a little</em> extra time.</p>
+<p>See how soft and beguiling those sentences have become? It almost sounds like customer service speak, a style intended for emotional situations. For example: the retentions department of your local telecom company.</p>
+<p>Remember, filler words are sneaky. Understand them. Recognize them. Learn when to use them.</p>
 
                 
             
@@ -133,7 +69,7 @@
     <footer class="post-footer">
         
         
-<div class="post-tags"><span aria-label="Content tags:"></span><ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/cern/">cern</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dtd/">dtd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/history/">history</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html-spec/">html spec</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/http/">http</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/internet-culture/">internet culture</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/internet-explorer/">internet explorer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ncsa-mosaic/">ncsa mosaic</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/netscape-navigator/">netscape navigator</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sgml/">sgml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/w3c/">w3c</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web-browser/">web browser</a></li></ul></div>
+<div class="post-tags"><span aria-label="Content tags:"></span><ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/doubt/">doubt</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/insecurity/">insecurity</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/persuasion/">persuasion</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/voice/">voice</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/writing/">writing</a></li></ul></div>
 
     </footer>
 </article>
