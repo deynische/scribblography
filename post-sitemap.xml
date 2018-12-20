@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://scribblography.com/recipe-for-a-quality-writing-habit/</loc>
+        <lastmod>2018-12-20T07:49:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://scribblography.com/figuring-the-basics-of-design/</loc>
-        <lastmod>2018-12-13T06:46:59.772Z</lastmod>
+        <lastmod>2018-12-13T06:46:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +25,7 @@
 
     <url>
         <loc>https://scribblography.com/the-name-you-invest-in/</loc>
-        <lastmod>2018-12-06T08:23:51.646Z</lastmod>
+        <lastmod>2018-12-06T08:23:51.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +33,7 @@
 
     <url>
         <loc>https://scribblography.com/minimizing-filler-words/</loc>
-        <lastmod>2018-11-29T07:46:30.930Z</lastmod>
+        <lastmod>2018-11-29T07:46:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,7 +41,7 @@
 
     <url>
         <loc>https://scribblography.com/a-history-of-HTML/</loc>
-        <lastmod>2018-11-22T02:41:46.293Z</lastmod>
+        <lastmod>2018-11-22T02:41:46.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -41,7 +49,7 @@
 
     <url>
         <loc>https://scribblography.com/using-a-custom-domain-with-GitHub-Pages/</loc>
-        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <lastmod>2018-11-14T20:59:42.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -49,7 +57,7 @@
 
     <url>
         <loc>https://scribblography.com/get-used-to-writing/</loc>
-        <lastmod>2018-11-09T03:12:30.858Z</lastmod>
+        <lastmod>2018-11-09T03:12:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

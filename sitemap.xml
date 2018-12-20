@@ -4,22 +4,22 @@
 
     <sitemap>
         <loc>https://scribblography.com/post-sitemap.xml</loc>
-        <lastmod>2018-12-13T06:46:59.772Z</lastmod>
+        <lastmod>2018-12-20T07:49:21.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://scribblography.com/page-sitemap.xml</loc>
-        <lastmod>2018-11-07T23:25:17.754Z</lastmod>
+        <lastmod>2018-11-07T23:25:17.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://scribblography.com/category-sitemap.xml</loc>
-        <lastmod>2018-11-14T20:59:42.102Z</lastmod>
+        <lastmod>2018-11-14T20:59:42.000Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://scribblography.com/tag-sitemap.xml</loc>
-        <lastmod>2018-11-09T03:12:30.858Z</lastmod>
+        <lastmod>2018-11-09T03:12:30.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>
