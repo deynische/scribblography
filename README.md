@@ -4,6 +4,8 @@
 
 A static page weblog built with [Hexo](https://hexo.io/) and uses a custom built theme I call Memo Pad.
 
+Blog currently on hiatus until redesign.
+
 ***
 
 ## To Do
